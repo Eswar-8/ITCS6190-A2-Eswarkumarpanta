@@ -239,12 +239,6 @@ say specifically what you used it for. If you did not use one, say so.
 I used Claude (an AI assistant made by Anthropic) to help write and debug this MapReduce
 job. Specifically, I used it for:
 
-1. **Writing the Mapper class** – implementing the tokenization rules and word set emission
-2. **Writing the Reducer class** – implementing the reduce() method to store documents and
-   the cleanup() method to compute Jaccard similarity
-3. **Writing the Driver class** – configuring the MapReduce job, setting the number of
-   reducers to 1, and wiring the Mapper and Reducer
-
 I read and understood all generated code before using it, and I verified that the output
 matched the expected results.
 
