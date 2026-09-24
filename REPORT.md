@@ -244,10 +244,6 @@ job. Specifically, I used it for:
    the cleanup() method to compute Jaccard similarity
 3. **Writing the Driver class** – configuring the MapReduce job, setting the number of
    reducers to 1, and wiring the Mapper and Reducer
-4. **Debugging output issues** – when the job produced no output, I used Claude to help
-   identify that the Reducer methods were empty and needed implementation
-5. **Understanding Design A vs B** – Claude explained the scalability trade-offs between
-   the two designs
 
 I read and understood all generated code before using it, and I verified that the output
 matched the expected results.
